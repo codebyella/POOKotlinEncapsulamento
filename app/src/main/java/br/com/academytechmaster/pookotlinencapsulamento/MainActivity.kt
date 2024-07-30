@@ -36,11 +36,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun iniciarComponentesDoLayout() {
 
-         txtTitulo = findViewById<TextView>(R.id.txtTituloLivro)
-         txtAutor = findViewById<TextView>(R.id.txtAutor)
-         txtEditora = findViewById<TextView>(R.id.txtEditora)
-         txtLocalizacao = findViewById<TextView>(R.id.txtLocalizacao)
-         txtPagina = findViewById<TextView>(R.id.txtPagina)
+         txtTitulo = findViewById(R.id.txtTituloLivro)
+         txtAutor = findViewById(R.id.txtAutor)
+         txtEditora = findViewById(R.id.txtEditora)
+         txtLocalizacao = findViewById(R.id.txtLocalizacao)
+         txtPagina = findViewById(R.id.txtPagina)
 
     }
 
