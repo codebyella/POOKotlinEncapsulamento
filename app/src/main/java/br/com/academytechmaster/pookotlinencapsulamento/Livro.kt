@@ -8,7 +8,7 @@ class Livro(
     private var _localizacao: String,
     private var _paginas: Int
 
-){
+) {
     var titulo: String
         get() = _titulo
         set(valor) {
@@ -22,7 +22,7 @@ class Livro(
         }
 
     var editora: String
-        get() = _autor
+        get() = _editora
         set(valor) {
             _editora = valor
         }
@@ -39,4 +39,11 @@ class Livro(
             _paginas = valor
         }
 
+    fun detalhes(){
+        println("Título: $titulo")
+        println("Autor: $autor")
+        println("Editora: $editora")
+        println("Localização: $localizacao")
+        println("Páginas: $paginas")
+    }
 }
