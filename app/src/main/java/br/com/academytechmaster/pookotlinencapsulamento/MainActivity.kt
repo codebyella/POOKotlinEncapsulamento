@@ -60,11 +60,11 @@ class MainActivity : AppCompatActivity() {
         var localizacao = livro.localizacao
         var paginas = livro.paginas
 
-        Log.i("POO","Obj Livro: Autor: "+autor)
-        Log.i("POO","Obj Livro: Titulo: "+titulo)
-        Log.i("POO","Obj Livro: Editora: "+editora)
-        Log.i("POO","Obj Livro: Pag: "+paginas)
-        Log.i("POO","Obj Livro: Localização: "+localizacao)
+        Log.i("POO","Obj Livro: Autor: "+autor);
+        Log.i("POO","Obj Livro: Titulo: "+titulo);
+        Log.i("POO","Obj Livro: Editora: "+editora);
+        Log.i("POO","Obj Livro: Pag: "+paginas);
+        Log.i("POO","Obj Livro: Localização: "+localizacao);
 
         txtTitulo.setText(titulo)
         txtAutor.setText(livro.autor)

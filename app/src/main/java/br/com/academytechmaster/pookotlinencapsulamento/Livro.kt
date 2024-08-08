@@ -8,7 +8,7 @@ class Livro(
     private var _localizacao: String,
     private var _paginas: Int
 
-){
+) {
     var titulo: String
         get() = _titulo
         set(valor) {
